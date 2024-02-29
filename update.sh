@@ -30,20 +30,23 @@ else
 	echo "# - Set version $SW"
 fi
 
+if pgrep -x "sve" > /dev/null; then
+    say_and_do sudo killall sve
+fi
+
+say_and_do	sudo cp ./old_bin/sve /usr/bin/
+
 if [ -d "$DIRECTORY" ]; then
   	echo "Remove old version"
 	say_and_do 	rm -rf $DIRECTORY
 	say_and_do	mkdir -p $DIRECTORY	
 fi
 
-			sudo killall sve
-say_and_do	sudo cp ./old_bin/sve /usr/bin/
-
-# echo "# download"
-# say_and_do git clone https://github.com/RP-Optical-Lab/sw.swir.release.git
-# say_and_do cd sw.swir.release
-say_and_do cp -r $SW/* $DIRECTORY
-say_and_do chmod +x $DIRECTORY/output/sve
+# say_and_do	git clone https://github.com/RP-Optical-Lab/sw.swir.release.git
+# say_and_do	cd sw.swir.release
+say_and_do 	cp -r $SW/* $DIRECTORY
+say_and_do 	chmod +x $DIRECTORY/output/sve
+# say_and_do	sudo $DIRECTORY/scripts/init.sh &
 
 echo
 echo "# - done"

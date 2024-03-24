@@ -4,6 +4,13 @@
 ![](https://www.xilinx.com/content/xilinx/en/products/som/kria/_jcr_content/root/parsystop/xilinxflexibleslab_c_113513440/xilinxflexibleslab-parsys/xilinxcolumns_2046427055/childParsys-1/xilinximage_copy.img.png/1694739643280.png "SoM k26")
 
 # What's new in the latest version
+## Version 0.0.4
+### New:
+1. Added digital zoom x1.5 and x3
+### Bugs fixed:
+1. Fixed first line artifacts issue.
+
+
 ## Version 0.0.3
 ### New:
 1. Target

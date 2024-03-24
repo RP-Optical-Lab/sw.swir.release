@@ -34,7 +34,7 @@ if pgrep -x "sve" > /dev/null; then
     say_and_do sudo killall sve
 fi
 
-say_and_do	sudo cp ./old_bin/sve /usr/bin/
+# say_and_do	sudo cp ./old_bin/sve /usr/bin/
 
 if [ -d "$DIRECTORY" ]; then
   	echo "Remove old version"

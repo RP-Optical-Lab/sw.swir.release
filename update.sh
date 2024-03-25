@@ -34,13 +34,14 @@ if pgrep -x "sve" > /dev/null; then
     say_and_do sudo killall sve
 fi
 
-# say_and_do	sudo cp ./old_bin/sve /usr/bin/
+say_and_do	sudo cp ./old_bin/sve /usr/bin/
 
 if [ -d "$DIRECTORY" ]; then
   	echo "Remove old version"
 	say_and_do 	rm -rf $DIRECTORY
-	say_and_do	mkdir -p $DIRECTORY	
 fi
+
+say_and_do	mkdir -p $DIRECTORY	
 
 # say_and_do	git clone https://github.com/RP-Optical-Lab/sw.swir.release.git
 # say_and_do	cd sw.swir.release

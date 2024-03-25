@@ -188,7 +188,7 @@
     "Main_422": {
         "active": true,
         "alias": "M422",
-        "baud_rate": 115200,
+        "baud_rate": 57600,
         "canonical": false,
         "device": "/dev/ttyS0",
         "vmin": 64,

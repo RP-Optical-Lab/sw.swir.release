@@ -191,7 +191,7 @@
         "baud_rate": 57600,
         "canonical": false,
         "device": "/dev/ttyS0",
-        "vmin": 64,
+        "vmin": 4,
         "vtime": 1
     },
     "NUC": {

@@ -7,11 +7,14 @@
 ## Version 0.0.4
 ### New:
 1. Added digital zoom x1.5 and x3
+2. Added interrupted autofocus START/ABORT/STATUS
 ### Bugs fixed:
 1. Fixed first line artifacts issue.
+2. Fixed serial issue with the RX buffer
+3. Get LENSFL and LENSPOS cmds now operate as the lens moves rather than on demand.
 
 
-## Version 0.0.3
+## Version 0.0.~~3~~
 ### New:
 1. Target
 2. Inverse

@@ -4,6 +4,16 @@
 ![](https://www.xilinx.com/content/xilinx/en/products/som/kria/_jcr_content/root/parsystop/xilinxflexibleslab_c_113513440/xilinxflexibleslab-parsys/xilinxcolumns_2046427055/childParsys-1/xilinximage_copy.img.png/1694739643280.png "SoM k26")
 
 # What's new in the latest version
+## Version 0.0.5
+### New:
+1. Added the ability to output a synthetic video pattern (configuration file and DSYNTH command).
+2. The logic of operating parameters has been redesigned.
+### Bugs fixed:
+1. Fixed lens goto issue
+2. Fixed restart issue
+3. Fixed issue with negative offset 
+
+
 ## Version 0.0.4
 ### New:
 1. Added digital zoom x1.5 and x3
@@ -11,10 +21,10 @@
 ### Bugs fixed:
 1. Fixed first line artifacts issue.
 2. Fixed serial issue with the RX buffer
-3. Get LENSFL and LENSPOS cmds now operate as the lens moves rather than on demand.
+3. Get LENSFL and LENSPOS commands now updates as the lens moves rather than on demand.
 
 
-## Version 0.0.~~3~~
+## Version 0.0.3
 ### New:
 1. Target
 2. Inverse

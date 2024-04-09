@@ -196,7 +196,8 @@
         "vtime": 1
     },
     "NUC": {
-        "calc.nof": 64
+        "calc.nof": 64,
+        "calc.en": false
     },
     "Version": {
         "FW": {

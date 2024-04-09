@@ -8,6 +8,7 @@
 ### New:
 1. Added the ability to output a synthetic video pattern (configuration file and DSYNTH command).
 2. The logic of operating parameters has been redesigned.
+3. Added safety "pin" to prevent unwanted NUC calibration process.
 ### Bugs fixed:
 1. Fixed lens goto issue
 2. Fixed restart issue

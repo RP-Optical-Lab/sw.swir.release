@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<software>
+    <version>
+        <major>0</major>
+        <minor>0</minor>
+        <build>5</build>
+    </version>
+    <tag>ve_swir_sdi</tag>
+    <path>/releases/download/v0.0.5</path>
+    <file>v0.0.5.tar.gz</file>
+</software>

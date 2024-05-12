@@ -2,10 +2,10 @@
 <software>
     <version>
         <major>0</major>
-        <minor>0</minor>
-        <build>5</build>
+        <minor>1</minor>
+        <build>0</build>
     </version>
     <tag>ve_swir_sdi</tag>
-    <path>/releases/download/v0.0.5</path>
-    <file>v0.0.5.tar.gz</file>
+    <path>/releases/download/v0.1.0</path>
+    <file>v0.1.0.tar.gz</file>
 </software>

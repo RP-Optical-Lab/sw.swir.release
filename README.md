@@ -4,6 +4,22 @@
 ![](https://www.xilinx.com/content/xilinx/en/products/som/kria/_jcr_content/root/parsystop/xilinxflexibleslab_c_113513440/xilinxflexibleslab-parsys/xilinxcolumns_2046427055/childParsys-1/xilinximage_copy.img.png/1694739643280.png "SoM k26")
 
 # What's new in the latest version
+
+## Version 0.1.0
+### New:
+1. Added SW/FW Update logic
+2. Added GET LOG command
+3. Added GET INFO command
+4. Added FSYNC mode from config file
+5. Added partially runtime log
+6. Added logic for checking frame health
+7. System ID + FW version
+8. Set fw core frame size
+### Bugs fixed:
+1. Fixed AF issue
+2. Fixed issue with serial communication
+
+
 ## Version 0.0.5
 ### New:
 1. Added the ability to output a synthetic video pattern (configuration file and DSYNTH command).

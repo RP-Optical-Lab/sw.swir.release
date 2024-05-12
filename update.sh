@@ -1,15 +1,13 @@
 #!/bin/bash
 
-DIRECTORY="/home/max/sw.swir"
-
 usage () {
-	echo "# usage:   ./update.sh version"
-	echo "# example: ./update.sh v0.0.3"
+	echo "# usage:   ./update.shfile"
+	echo "# example: ./update.sh v0.0.3.tar.gz"
 	echo
 	exit 1
 }
 
-say_and_do () {
+sayAndDo () {
 	echo $@
 	eval $@
 	if [ $? -ne 0 ]; then
@@ -22,32 +20,21 @@ say_and_do () {
 echo "##############################################"
 echo
 
-SW="$1"
-if [ -z "$SW" ]; then
-	echo "# - error: SW version must be specified"
-	usage
-else
-	echo "# - Set version $SW"
+FILE="$1"
+FILENAME="$(basename "$FILE" .tar.gz)"
+
+DESDIR="/home/max/sw.swir"
+SCR_DIR="$DESDIR/scripts"
+if [ ! -d "$DESDIR" ]; then
+	sayAndDo    mkdir -p $DESDIR
 fi
-
-if pgrep -x "sve" > /dev/null; then
-    say_and_do sudo killall sve
+if [ ! -d "$SCR_DIR" ]; then
+	sayAndDo    mkdir -p $SCR_DIR
 fi
-
-say_and_do	sudo cp ./old_bin/sve /usr/bin/
-
-if [ -d "$DIRECTORY" ]; then
-  	echo "Remove old version"
-	say_and_do 	rm -rf $DIRECTORY
-fi
-
-say_and_do	mkdir -p $DIRECTORY	
-
-# say_and_do	git clone https://github.com/RP-Optical-Lab/sw.swir.release.git
-# say_and_do	cd sw.swir.release
-say_and_do 	cp -r $SW/* $DIRECTORY
-say_and_do 	chmod +x $DIRECTORY/output/sve
-# say_and_do	sudo $DIRECTORY/scripts/init.sh &
+echo Update SW $FILE $FILENAME
+sayAndDo    tar xvf $FILE -C $DESDIR
+sayAndDo    cp $DESDIR/$FILENAME/README.md $DESDIR
+sayAndDo    cp $DESDIR/$FILENAME/scripts/init.sh  $SCR_DIR/init.sh
 
 echo
 echo "# - done"

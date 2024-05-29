@@ -5,6 +5,13 @@
 
 # What's new in the latest version
 
+## Version 0.1.1
+### New:
+1. Added parameter to config file to control ISP interactions
+### Bugs fixed:
+1. Fixed video stream interruptions after long periods of work.
+2. Improved autofocus logic. An option has been added to the configuration file to configure scanning range.
+
 ## Version 0.1.0
 ### New:
 1. Added SW/FW Update logic

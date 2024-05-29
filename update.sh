@@ -1,7 +1,7 @@
 #!/bin/bash
 
 usage () {
-	echo "# usage:   ./update.shfile"
+	echo "# usage:   ./update.sh file"
 	echo "# example: ./update.sh v0.0.3.tar.gz"
 	echo
 	exit 1
@@ -13,7 +13,7 @@ sayAndDo () {
 	if [ $? -ne 0 ]; then
 		echo "# - error: Command failed!"
 		echo
-		exit 1
+		usage
 	fi
 }
 

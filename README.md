@@ -5,6 +5,11 @@
 
 # What's new in the latest version
 
+## Version 0.1.2
+### Bugs fixed:
+1. Fixed Ethernet commands parsing.
+2. Improved autofocus logic.
+
 ## Version 0.1.1
 ### New:
 1. Added parameter to config file to control ISP interactions

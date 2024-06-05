@@ -5,6 +5,10 @@
 
 # What's new in the latest version
 
+## Version 0.1.3
+### Bugs fixed:
+1. Fixed get focal length command
+
 ## Version 0.1.2
 ### Bugs fixed:
 1. Fixed Ethernet commands parsing.

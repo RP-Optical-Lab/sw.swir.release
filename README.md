@@ -5,6 +5,22 @@
 
 # What's new in the latest version
 
+## Version 1.0.0
+### New:
+1. Added ALPD Accel module.
+2. Added NUC Accel module.
+3. Added BPC Accel module.
+4. The operation time of ISP Accel has been reduced.
+5. Added image capture cmd.
+6. Speed up saving working parameters.
+7. The stream pipe has been optimized.
+8. Added get histogram cmd.
+### Bugs fixed:
+1. Fixed version control.
+### Notes:
+1. Required FW rp-swir-sdi-v1.0.0 version 
+
+
 ## Version 0.1.3
 ### Bugs fixed:
 1. Fixed get focal length command

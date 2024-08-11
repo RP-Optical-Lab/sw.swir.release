@@ -1,9 +1,15 @@
 # SW SWIR Video Engine 
 ### New generation of video engine software based Xilinx KRIA K26 SoM.
 
-![](https://www.xilinx.com/content/xilinx/en/products/som/kria/_jcr_content/root/parsystop/xilinxflexibleslab_c_113513440/xilinxflexibleslab-parsys/xilinxcolumns_2046427055/childParsys-1/xilinximage_copy.img.png/1694739643280.png "SoM k26")
-
 # What's new in the latest version
+
+## Version 1.0.1
+### New:
+1. Added an additional layer to correct bad pixels from NUC tables.
+### Bugs fixed:
+1. Fixed lens parsing issue.
+2. Fixed Stream flickering issue (added more CLAHE tiles).
+
 
 ## Version 1.0.0
 ### New:

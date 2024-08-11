@@ -3,9 +3,9 @@
     <version>
         <major>1</major>
         <minor>0</minor>
-        <build>0</build>
+        <build>1</build>
     </version>
     <tag>ve_swir_sdi</tag>
-    <path>/releases/download/v1.0.0</path>
-    <file>v1.0.0.tar.gz</file>
+    <path>/releases/download/v1.0.1</path>
+    <file>v1.0.1.tar.gz</file>
 </software>

@@ -3,6 +3,21 @@
 
 # What's new in the latest version
 
+## Version 1.0.3
+### New:
+1. Added FIR filter for sharpening (CPU side).
+2. Added Spatial Filter for reduce spatial noise (CPU side).
+3. Added Inpaint method in BPR - currently not enabled
+### Bugs fixed:
+1. BPR: Improved algorithm.
+
+## Version 1.0.2
+### New:
+1. Added interpolation method for autofocus
+2. Added TEC PID control - currently not enabled
+### Bugs fixed:
+1. Autofocus: Improved scanning algorithm.
+
 ## Version 1.0.1
 ### New:
 1. Added an additional layer to correct bad pixels from NUC tables.

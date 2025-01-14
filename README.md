@@ -3,6 +3,12 @@
 
 # What's new in the latest version
 
+## Version 1.0.4
+### Bugs fixed:
+1. Autofocus: Fixed issue in 720p
+2. BPC: Reset bad pixel map when calibrating NUC
+3. Statistics moved after NUC calculation algorithm
+
 ## Version 1.0.3
 ### New:
 1. Added FIR filter for sharpening (CPU side).

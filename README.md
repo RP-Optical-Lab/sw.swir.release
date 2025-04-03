@@ -1,7 +1,21 @@
 # SW SWIR Video Engine 
 ### New generation of video engine software based Xilinx KRIA K26 SoM.
 
-# What's new in the latest version
+## Version 1.0.5
+### New:
+1. Added PID to ANT.
+2. Synchronized iTime updates with the frame sequence.
+3. Introduced a lens filter based on the system configuration.
+4. Implemented 1p NUC.
+5. The "check image health" module has been switched from mandatory to optional
+6. Added a full system reset, including the lens.
+### Bugs fixed:
+1. Resolved digital zoom feedback issues.
+2. Optimized the 2p NUC algorithm.
+3. Fixed horizontal line artifacts in frames.
+### Notes:
+1. Modified 2p NUC calibration procedure.
+2. The original config file has been split to suit different systems.
 
 ## Version 1.0.4
 ### Bugs fixed:

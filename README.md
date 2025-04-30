@@ -1,6 +1,22 @@
 # SW SWIR Video Engine 
 ### New generation of video engine software based Xilinx KRIA K26 SoM.
 
+## Version 1.0.7
+### New:
+1.	Added the ADJ command.
+2.	Added a configuration option to reverse the zoom and focus behavior.
+
+## Version 1.0.6
+### New:
+1. DRC Control added to the ISP (Tiles) module.
+2. Offset Control functionality implemented.
+### Bugs fixed:
+1. Fixed toggle issues in Sharpening and Spatial Filters.
+2. Resolved malfunction in the YTOGGLE command.
+3. Corrected feedback behavior in the ADJ3 command.
+### Notes:
+1. Updated major versioning logic to support fetch operations from the GUI interface.
+   
 ## Version 1.0.5
 ### New:
 1. Added PID to ANT.

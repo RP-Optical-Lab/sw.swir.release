@@ -1,10 +1,25 @@
 # SW SWIR Video Engine 
 ### New generation of video engine software based Xilinx KRIA K26 SoM.
 
+## Version 15.1.0
+### New:
+1. New versioning scheme for SW & HW.
+2. Added hardware FIR with custom kernels (sharpening and smoothing filters).
+3. Implemented Black Level Correction in the ISP module and optimized parameter application.
+4. Introduced a new hardware NUC module with shift functionality and saturate casting.
+5. Optimized saving of user-defined operational parameters.
+6. Added video freeze functionality.
+### Bugs fixed:
+1. Resolved BPC reset issue during 2-point NUC calibration.
+2. Fixed performance issue in serial communication.
+3. Corrected image and bad pixel handling in the CAPTURE command.
+### Notes:
+1. Required FW 15.1.0 version 
+
 ## Version 1.0.7
 ### New:
-1.	Added the ADJ command.
-2.	Added a configuration option to reverse the zoom and focus behavior.
+1. Added the ADJ command.
+2. Added a configuration option to reverse the zoom and focus behavior.
 
 ## Version 1.0.6
 ### New:

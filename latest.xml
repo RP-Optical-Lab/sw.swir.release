@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <software>
     <version>
-        <major>1</major>
-        <minor>0</minor>
-        <build>7</build>
+        <major>15</major>
+        <minor>1</minor>
+        <build>0</build>
     </version>
     <tag>ve_swir_sdi</tag>
-    <path>/releases/download/v1.0.7</path>
-    <file>sw_swir-1.0.7.tar.gz</file>
+    <path>/releases/download/v15.1.0</path>
+    <file>
+        <crocus>sw_swir_cr-15.1.0.tar.gz</crocus>
+        <amaryllis>sw_swir_am-15.1.0.tar.gz</amaryllis>
+    </file>
 </software>

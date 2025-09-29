@@ -1,9 +1,26 @@
 # SW SWIR Video Engine 
 ### New generation of video engine software based Xilinx KRIA K26 SoM.
 
+## Version 15.1.1
+### New:
+1. Added System ID: users can now set an ID via the config file.
+2. Added option to change the System IP Address via the config file.
+3. Added option to save 2PNUC tables in TIFF format for debugging.
+4. Added sync after saving 2PNUC tables.
+5. Removed unnecessary log messages.
+### Bugs fixed:
+1. Fixed an issue where system upgrade files were not installed after a power cutoff.
+2. Fixed an issue where the config file was not saved correctly after a power cutoff.
+3. Fixed an issue in LENSGOTO where sending commands one by one caused either the zoom or focus motor to stop. 
+   Now both run continuously until they reach the required position.
+4. Optimized logger logic.
+5. Fixed an issue with command parsing in the serial interface where the opcode was not copied correctly.
+### Notes:
+--
+
 ## Version 15.1.0
 ### New:
-1. New versioning scheme for SW & HW.
+1. New versioning scheme for SW & FW.
 2. Added hardware FIR with custom kernels (sharpening and smoothing filters).
 3. Implemented Black Level Correction in the ISP module and optimized parameter application.
 4. Introduced a new hardware NUC module with shift functionality and saturate casting.

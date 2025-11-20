@@ -3,12 +3,12 @@
     <version>
         <major>15</major>
         <minor>1</minor>
-        <build>1</build>
+        <build>2</build>
     </version>
     <tag>ve_swir_sdi</tag>
-    <path>/releases/download/v15.1.1</path>
+    <path>/releases/download/v15.1.2</path>
     <file>
-        <crocus>sw_swir-15.1.1_crocus.tar.gz</crocus>
-        <amaryllis>sw_swir-15.1.1_amaryllis.tar.gz</amaryllis>
+        <crocus>sw_swir-15.1.2_crocus.tar.gz</crocus>
+        <amaryllis>sw_swir-15.1.2_amaryllis.tar.gz</amaryllis>
     </file>
 </software>

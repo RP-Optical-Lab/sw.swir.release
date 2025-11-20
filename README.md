@@ -1,6 +1,15 @@
 # SW SWIR Video Engine 
 ### New generation of video engine software based Xilinx KRIA K26 SoM.
 
+## Version 15.1.2
+### New:
+1. Added an option to config file to apply “blocking mode” to the LENS_GOTO command. 
+   Feedback will be sent once the lens has reached the desired position.
+### Bugs fixed:
+--
+### Notes:
+--
+
 ## Version 15.1.1
 ### New:
 1. Added System ID: users can now set an ID via the config file.

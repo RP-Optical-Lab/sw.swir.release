@@ -2,13 +2,13 @@
 <software>
     <version>
         <major>15</major>
-        <minor>1</minor>
-        <build>2</build>
+        <minor>2</minor>
+        <build>0</build>
     </version>
     <tag>ve_swir_sdi</tag>
-    <path>/releases/download/v15.1.2</path>
+    <path>/releases/download/v15.2.0</path>
     <file>
-        <crocus>sw_swir-15.1.2_crocus.tar.gz</crocus>
-        <amaryllis>sw_swir-15.1.2_amaryllis.tar.gz</amaryllis>
+        <crocus>sw_swir-15.2.0_crocus.tar.gz</crocus>
+        <amaryllis>sw_swir-15.2.0_amaryllis.tar.gz</amaryllis>
     </file>
 </software>
